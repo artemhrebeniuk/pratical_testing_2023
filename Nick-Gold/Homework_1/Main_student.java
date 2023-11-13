@@ -1,6 +1,6 @@
 package org.Homework;
 
-public class Main {
+public class Main_student {
     public static void main(String[] args) {
         Student student = new Student();
 
