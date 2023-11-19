@@ -1,4 +1,4 @@
-package example;
+package hm1;
 
 import java.text.DecimalFormat;
 
