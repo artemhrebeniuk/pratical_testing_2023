@@ -1,4 +1,4 @@
-package homework;
+package hm1;
 import java.time.LocalDate;
 
 public class Person {
