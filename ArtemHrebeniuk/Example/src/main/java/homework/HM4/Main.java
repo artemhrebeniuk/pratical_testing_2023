@@ -1,4 +1,4 @@
-package hm3;
+package hm4;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
