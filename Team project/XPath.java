@@ -9,11 +9,15 @@ public class XPath {
         String saveButton = "//button[@type='submit']";
     }
 
-    XPath for Adding new Employee
-    xpath=//div[@id='app']/div/div/header/div/div/i
-    xpath=//span[contains(.,'PIM')]
-    xpath=//button[contains(.,' Add')]
-    xpath=//button[contains(.,'Save')]
-
+    //Bilan Daria
+    public interface addNewEmployye{
+        String PIM = "//a[contains(@href, '/web/index.php/pim/viewPimModule')]",
+            addButton = "//button[contains(.,' Add')]",
+            firstNameField = "//input[@name='firstName']",
+            secondNameField = "//input[@name='middleName']",
+            thirdNameField = "//input[@name='lastName']",
+            saveButton = "//button[contains(.,'Save')]";
+        }
+ 
     
 }
