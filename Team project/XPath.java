@@ -8,7 +8,7 @@ public class XPath {
     xpath=//button[contains(.,' Add')]
     xpath=//button[contains(.,'Save')]
 
-    interface ChangePassword {
+    public interface ChangePassword {
         String header = "//h2[text()='Change Password']";
         String currentPasswordInput = "//input[@id='txtCurrentPassword']";
         String newPasswordInput = "//input[@id='txtNewPassword']";
