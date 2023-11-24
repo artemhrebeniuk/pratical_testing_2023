@@ -2,11 +2,11 @@ package constants;
 
 public class XPath {
     public interface ChangePassword {
-        String header = "//h2[text()='Change Password']";
-        String currentPasswordInput = "//input[@id='txtCurrentPassword']";
-        String newPasswordInput = "//input[@id='txtNewPassword']";
-        String confirmPasswordInput = "//input[@id='txtConfirmPassword']";
-        String saveButton = "//button[@type='submit']";
+        header = "//h2[text()='Change Password']";
+        currentPasswordInput = "//input[@id='txtCurrentPassword']";
+        newPasswordInput = "//input[@id='txtNewPassword']";
+        confirmPasswordInput = "//input[@id='txtConfirmPassword']";
+        saveButton = "//button[@type='submit']";
     }
 
     //Bilan Daria
