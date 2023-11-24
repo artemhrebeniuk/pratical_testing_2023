@@ -1,6 +1,8 @@
 package constants;
 
 public class XPath {
+
+    //Artem Hrebeniuk
     public interface ChangePassword {
         header = "//h2[text()='Change Password']";
         currentPasswordInput = "//input[@id='txtCurrentPassword']";
